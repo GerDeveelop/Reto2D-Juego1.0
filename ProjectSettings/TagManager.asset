@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Traps
   - Lights
+  - Trap
   layers:
   - Default
   - TransparentFX
@@ -51,7 +51,4 @@ TagManager:
     locked: 0
   - name: Terrain
     uniqueID: 1026449643
-    locked: 0
-  - name: Player
-    uniqueID: 1519220749
     locked: 0
