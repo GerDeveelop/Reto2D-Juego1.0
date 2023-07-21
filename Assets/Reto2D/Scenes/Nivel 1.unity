@@ -1367,6 +1367,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -1437,22 +1439,22 @@ Tilemap:
   m_TileMatrixArray:
   - m_RefCount: 0
     m_Data:
-      e00: 0
+      e00: 1e-45
       e01: 0
-      e02: -3.3762627
-      e03: -3.3762627
+      e02: -8.081546e-39
+      e03: -8.081546e-39
       e10: 0
       e11: 0
-      e12: 1.026e-42
-      e13: 1.026e-42
+      e12: 6.88e-43
+      e13: 6.88e-43
       e20: -1.4349615e+10
-      e21: 1.12e-43
-      e22: 2.0477983e-19
-      e23: 4.0222774e+19
+      e21: 8e-45
+      e22: 4.9509038e-29
+      e23: 8.707801e+9
       e30: 4.5905e-41
       e31: 0
-      e32: 1.027e-42
-      e33: 1.03e-42
+      e32: 6.9e-43
+      e33: 6.92e-43
   m_TileColorArray:
   - m_RefCount: 0
     m_Data: {r: 9.9346e-41, g: 9.9346e-41, b: 9.9346e-41, a: 9.9346e-41}
@@ -1493,12 +1495,12 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {r: 6.9549e-41, g: 6.9549e-41, b: 6.9549e-41, a: 6.9549e-41}
   - m_RefCount: 0
-    m_Data: {r: 6.9549e-41, g: 6.9549e-41, b: 6.9549e-41, a: 6.9549e-41}
+    m_Data: {r: 3.4441e-41, g: 3.4441e-41, b: 3.4441e-41, a: 3.4441e-41}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -13, y: -7, z: 0}
-  m_Size: {x: 50, y: 17, z: 1}
+  m_Origin: {x: -42, y: -7, z: 0}
+  m_Size: {x: 79, y: 17, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -1534,7 +1536,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &593972882
 AudioSource:
   m_ObjectHideFlags: 0
