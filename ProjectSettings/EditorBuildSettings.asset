@@ -19,5 +19,11 @@ EditorBuildSettings:
     guid: 7c5555009924f564d8776ca7585e305d
   - enabled: 1
     path: Assets/Reto2D/Scenes/Nivel 2.unity
-    guid: a8a2e630213a1454f83b6f90b15e0f4c
+    guid: 9c8badc4ba7af1242a54322d5dc2828b
+  - enabled: 1
+    path: Assets/Reto2D/Scenes/Nivel 3.unity
+    guid: a79adabf21555374896a26d2f0474b41
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

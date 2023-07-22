@@ -1703,7 +1703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.9716981, b: 0.63604826, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2652,7 +2652,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 473b037b195d90340aca14defa952546, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1c43aea70e93d85459211c7fdc7ec347, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
