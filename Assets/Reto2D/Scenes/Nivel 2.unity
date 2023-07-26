@@ -1108,17 +1108,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1541053388}
---- !u!114 &442166344 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8185396970010929637, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
-  m_PrefabInstance: {fileID: 535595660}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &498069532
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,6 +1531,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3170448777401281552, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170448777448382554, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 618152673}
+    - target: {fileID: 3170448777448382554, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170448778237652241, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170448779441892456, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687397480737985040, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8185396969671974113, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1650,7 +1663,18 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
 --- !u!114 &535595661 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 480062045734836006, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3170448777671988573, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
+  m_PrefabInstance: {fileID: 535595660}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &535595662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6687397479921920926, guid: 86657efa3840eb54fa06fafe0cb28126, type: 3}
   m_PrefabInstance: {fileID: 535595660}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -23963,7 +23987,7 @@ PrefabInstance:
       objectReference: {fileID: 593972882}
     - target: {fileID: 8090936469982618109, guid: 65846980485462b428bdce1a004b451d, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8090936469982618109, guid: 65846980485462b428bdce1a004b451d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24012,7 +24036,7 @@ PrefabInstance:
     - target: {fileID: 8090936469982618110, guid: 65846980485462b428bdce1a004b451d, type: 3}
       propertyPath: LightsText
       value: 
-      objectReference: {fileID: 535595661}
+      objectReference: {fileID: 535595662}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65846980485462b428bdce1a004b451d, type: 3}
 --- !u!1001 &1336881301
@@ -25892,6 +25916,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960344269}
     m_Modifications:
+    - target: {fileID: 1440837494835527926, guid: a1ec82c20470f684798477aaf231c201, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 91c2cd808a64d474d802fd4a83a20422, type: 2}
     - target: {fileID: 1440837495366780492, guid: a1ec82c20470f684798477aaf231c201, type: 3}
       propertyPath: m_Name
       value: slime verde
@@ -26098,11 +26126,11 @@ PrefabInstance:
     - target: {fileID: 3866113923689916785, guid: f9e68f3e06670ea4bad5c960b790c2da, type: 3}
       propertyPath: sliderSet
       value: 
-      objectReference: {fileID: 442166344}
+      objectReference: {fileID: 535595661}
     - target: {fileID: 3866113923689916785, guid: f9e68f3e06670ea4bad5c960b790c2da, type: 3}
       propertyPath: volumeSlider
       value: 
-      objectReference: {fileID: 442166344}
+      objectReference: {fileID: 535595661}
     - target: {fileID: 3866113923689916787, guid: f9e68f3e06670ea4bad5c960b790c2da, type: 3}
       propertyPath: m_RootOrder
       value: 9
