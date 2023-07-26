@@ -11,6 +11,11 @@ public class MenuInicial : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    //funcion seleccion de nivel
+     public void Niveles(string nombre)
+    {
+        SceneManager.LoadScene(nombre);
+    }
 
     // funcion salir de escena
 

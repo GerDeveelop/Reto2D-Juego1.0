@@ -703,7 +703,6 @@ GameObject:
   - component: {fileID: 504435119}
   - component: {fileID: 504435118}
   - component: {fileID: 504435121}
-  - component: {fileID: 504435122}
   m_Layer: 0
   m_Name: Ant
   m_TagString: Trap
@@ -840,22 +839,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5941391, y: 1.1293435}
   m_EdgeRadius: 0
---- !u!114 &504435122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504435116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b58f95f357dbf1e49b4a09906fc43bc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 1043512233}
-  - {fileID: 1252844083}
-  speed: 2
 --- !u!1001 &553968021
 PrefabInstance:
   m_ObjectHideFlags: 0
