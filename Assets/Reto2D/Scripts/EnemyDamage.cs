@@ -9,6 +9,7 @@ public class EnemyDamage : MonoBehaviour
     private Animator animR;
     public Transform target;
     public Vector3 offset;
+    public AudioSource Enemysource;
 
     private void Update()
     {
@@ -36,7 +37,7 @@ public class EnemyDamage : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-
+            Enemysource.Play();
             Destroy(Enemy);
             Destroy(gameObject);
 
