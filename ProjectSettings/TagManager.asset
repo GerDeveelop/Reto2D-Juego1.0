@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Lights
   - Trap
+  - reverseL
+  - reverseR
+  - damage
   layers:
   - Default
   - TransparentFX

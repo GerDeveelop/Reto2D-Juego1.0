@@ -78,5 +78,16 @@ public class MovimientoPlayer : MonoBehaviour
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);    
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("damage"))
+        {
+
+            rb.velocity = new Vector2(rb.velocity.x, JumpForce);
+            JumpSound.Play();
+
+        }
+
+    }
 
 }
