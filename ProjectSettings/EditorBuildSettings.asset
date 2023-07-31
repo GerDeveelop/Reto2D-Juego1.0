@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Reto2D/Scenes/Menu.unity
     guid: 7f6d3cd989532e940b8e5ff594acf692
   - enabled: 1
-    path: Assets/Reto2D/Scenes/Nivel Tutorial.unity
+    path: Assets/Reto2D/Scenes/Nivel 0 Tutorial.unity
     guid: f04214f083c078743915715e682068e0
   - enabled: 1
     path: Assets/Reto2D/Scenes/Nivel 1.unity
