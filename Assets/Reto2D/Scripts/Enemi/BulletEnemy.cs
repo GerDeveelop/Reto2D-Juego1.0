@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlantEnemy : MonoBehaviour
+public class BulletEnemy : MonoBehaviour
 {
     public GameObject projectilePrefab;
     public float shootForce = 5f;

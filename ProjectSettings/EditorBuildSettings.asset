@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Reto2D/Scenes/Nivel 3.unity
     guid: ee0ec6e6daedd0945a039579bedb4d22
+  - enabled: 1
+    path: Assets/Reto2D/Scenes/Zcongrats.unity
+    guid: af35ca4a55571ea49a4883f69978419d
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

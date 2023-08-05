@@ -9,6 +9,7 @@ TagManager:
   - reverseL
   - reverseR
   - damage
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
