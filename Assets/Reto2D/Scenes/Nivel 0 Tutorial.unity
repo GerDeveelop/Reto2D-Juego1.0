@@ -934,7 +934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff06e96dd9973e244af04e0802686651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1768843343}
 --- !u!1 &431258864
 GameObject:
   m_ObjectHideFlags: 0
@@ -5544,6 +5544,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65846980485462b428bdce1a004b451d, type: 3}
+--- !u!4 &1768843343 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4053552408058775829, guid: 65846980485462b428bdce1a004b451d, type: 3}
+  m_PrefabInstance: {fileID: 1768843342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1849867335
 GameObject:
   m_ObjectHideFlags: 0
@@ -5916,7 +5921,7 @@ PrefabInstance:
     - target: {fileID: 3866113923689916784, guid: f9e68f3e06670ea4bad5c960b790c2da, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: c08abf31e9b895647886ee6c0798f2b9, type: 3}
+      objectReference: {fileID: 8300000, guid: 1c43aea70e93d85459211c7fdc7ec347, type: 3}
     - target: {fileID: 3866113923689916785, guid: f9e68f3e06670ea4bad5c960b790c2da, type: 3}
       propertyPath: sliderSet
       value: 

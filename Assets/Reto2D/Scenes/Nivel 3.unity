@@ -81190,6 +81190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BGSound
       objectReference: {fileID: 0}
+    - target: {fileID: 3866113923689916784, guid: f9e68f3e06670ea4bad5c960b790c2da, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1860625ba0417384992069c28d6bae8b, type: 3}
     - target: {fileID: 3866113923689916785, guid: f9e68f3e06670ea4bad5c960b790c2da, type: 3}
       propertyPath: sliderSet
       value: 

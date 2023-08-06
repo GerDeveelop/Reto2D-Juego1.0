@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Reto2D/Scenes/Menu.unity
     guid: 7f6d3cd989532e940b8e5ff594acf692
@@ -26,10 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Reto2D/Scenes/Zcongrats.unity
     guid: af35ca4a55571ea49a4883f69978419d
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects: {}
