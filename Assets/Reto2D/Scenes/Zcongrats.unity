@@ -1851,7 +1851,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c717c64c01bf74b4a8e777c736af7169, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ec62f16f98f8eb741a1e309a9564b169, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4479,7 +4479,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd269c6b1d838f340871cf0039fd2b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 1873334403}
   volumeSlider: {fileID: 1507317209}
   sliderSet: {fileID: 1507317209}
 --- !u!1 &1943703261
