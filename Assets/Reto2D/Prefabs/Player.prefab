@@ -312,3 +312,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4e0e99bfc2f27843a2e853d2c09c9b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Heart: []
+  animator: {fileID: 0}
