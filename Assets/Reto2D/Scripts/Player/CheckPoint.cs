@@ -5,16 +5,14 @@ using UnityEngine;
 public class CheckPoint : MonoBehaviour
 {
     public AudioSource checkPoint;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             checkPoint.Play();
-
-            collision.GetComponent<PlayerRespawn>().ReachedCheckPoint(transform.position.x, transform.position.y);
-
+            collision.GetComponent<PlayerRespawn>().ReachedCheckedPoint(transform.position.x,transform.position.y);
             GetComponent<Animator>().enabled = true;
         }
     }
-
 }

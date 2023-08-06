@@ -11,7 +11,7 @@ public class BulletEnemy : MonoBehaviour
     public float shootingDuration = 3f;
     public float restDuration = 4f;
 
-    private bool isShooting = false;
+   
     void Start()
     {
         StartCoroutine(AutoShoot());
@@ -21,7 +21,7 @@ public class BulletEnemy : MonoBehaviour
     {
         while (true)
         {
-            isShooting = true;
+          
 
             float shootingTimer = 0f;
 
@@ -32,7 +32,7 @@ public class BulletEnemy : MonoBehaviour
                 shootingTimer += projectileLifetime;
             }
 
-            isShooting = false;
+           
             yield return new WaitForSeconds(restDuration);
         }
     }
