@@ -21304,25 +21304,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 618152673}
     - target: {fileID: 2698631503563727408, guid: df4ad6bc7ef402846a2992946f84735b, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2698631503563727408, guid: df4ad6bc7ef402846a2992946f84735b, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1968881829}
-    - target: {fileID: 2698631503563727408, guid: df4ad6bc7ef402846a2992946f84735b, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_volume
-      objectReference: {fileID: 0}
-    - target: {fileID: 2698631503563727408, guid: df4ad6bc7ef402846a2992946f84735b, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.AudioSource, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 2698631503563727408, guid: df4ad6bc7ef402846a2992946f84735b, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 5927491115346658987, guid: df4ad6bc7ef402846a2992946f84735b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
