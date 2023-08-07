@@ -80631,6 +80631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robots
       objectReference: {fileID: 0}
+    - target: {fileID: 6011295306800291690, guid: bc652f78a3c6a29488114db3dfc736ec, type: 3}
+      propertyPath: shootToRight
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6011295306800291691, guid: bc652f78a3c6a29488114db3dfc736ec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.94
